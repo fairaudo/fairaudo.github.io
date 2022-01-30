@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://fairaudo.github.io/sitemap.xml
