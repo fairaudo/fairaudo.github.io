@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  hugo:
+    build:
+      context: ../
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        VERSION: "0.91.2"
+
+    volumes:
+      - ..:/workspace:cached
+      - /var/run/docker.sock:/var/run/docker-host.sock
+      - ~/.ssh:/home/hugo/.ssh/
+
+    entrypoint: "/bin/sleep"
+    command: "infinity"

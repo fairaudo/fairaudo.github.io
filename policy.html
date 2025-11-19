@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
     <style>
       :root {
-        --bg:#fbf8f3;
-        --text:#1a1a1a;
-        --muted:#555;
+        --bg: #fbf8f3;
+        --text: #1a1a1a;
+        --muted: #555;
       }
       body {
         font-family: 'Inter', sans-serif;
@@ -28,10 +28,7 @@
       a:hover {
         text-decoration: underline;
       }
-      .navbar-brand {
-        font-weight: 600;
-      }
-      .nav-link {
+      .navbar-brand, .nav-link {
         font-weight: 600;
       }
       .section-title {
@@ -43,10 +40,10 @@
       .entry-title {
         font-size: 1.1rem;
         font-weight: 600;
-        margin-bottom: 0.25rem;
+        margin-bottom: .25rem;
       }
       .meta {
-        font-size: .85rem;
+        font-size: .95rem;
         color: var(--muted);
         margin-bottom: .5rem;
       }
@@ -102,10 +99,23 @@
           <h1 class="section-title">Policy Work</h1>
         </div>
         <div class="col-md-9 content-col">
+          <!-- New entry -->
+          <div class="mb-3">
+            <div class="entry-title">
+              <a href="https://cepr.org/voxeu/columns/risks-new-international-trade-landscape" target="_blank">
+                Risks in the new international trade landscape
+              </a>
+            </div>
+            <p class="meta">
+              with <strong>François de Soyres, Ece Fisgin, Alexandre Gaillard, Ana Santacreu, Keith Richards, and Henry Young</strong>. <em>VoxEU</em>. August 4, 2025.
+            </p>
+          </div>
+
+          <!-- Existing entry -->
           <div class="mb-3">
             <div class="entry-title">
               <a href="https://www.federalreserve.gov/econres/notes/feds-notes/fragmentation-revisiting-the-ideal-point-distance-measure-of-geopolitical-distance-20250321.html" target="_blank">
-                Fragmentation? Revisiting the Ideal Point Distance measure of geopolitical distance,
+                Fragmentation? Revisiting the Ideal Point Distance measure of geopolitical distance
               </a>
             </div>
             <p class="meta">
